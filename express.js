@@ -66,9 +66,7 @@ app.get('/course/:id', (req,res) => {
        res.send(course)
    }
 });
-app.get('/example', (req,res) => {
-    res.send('Example Route')
-});
+
 
 const validateCourse = course => {
     const schema = {
