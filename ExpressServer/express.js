@@ -1,4 +1,4 @@
-
+const cors = require('cors')
 const express = require('express');
 const Joi = require('joi');
 const data = require('./data');
@@ -7,6 +7,7 @@ const app = express();
 
 //Allows you to pass body data url encoded forms.
 app.use(express.json());
+app.use(cors());
 
 const { courses } = data;
 console.log(courses);
