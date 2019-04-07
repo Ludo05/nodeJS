@@ -67,27 +67,22 @@ app.get('/course/:id', (req,res) => {
        res.send(course)
    }
 });
-app.get('/:num1/:num2', (req,res) => {
-    const num1 = req.params.num1;
-    const num2 = req.params.num2;
+app.get('/hello/:string', (req,res) => {
 
     const schema = {
-        num1: Joi.string().min(1).max(3).required()
+        string: Joi.string().min(1).max(7).required()
     };
-
     //results validates the req.params.num1 against the schema and returns a error
     //JSON if it doesn't pass the validations.
-    const results = Joi.validate(req.params.num1,schema);
+    //TODO MUST BE A OBJECT
+    const {results} = Joi.validate(req.params,schema);
     if(results) {
         console.log(results.error);
-        res.send(results.error);
+        res.send(results.error.details[0].message);
         return;
     }
-
-
-    const answer = parseInt(num1) + parseInt(num2);
-    res.send(answer.toString());
-})
+    res.send('Hello' + req.params.string);
+});
 
 
 const validateCourse = course => {
