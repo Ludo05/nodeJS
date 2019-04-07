@@ -1,23 +1,19 @@
+
 const express = require('express');
 const Joi = require('joi');
+const data = require('./data');
 
 const app = express();
 
 //Allows you to pass body data url encoded forms.
 app.use(express.json());
 
-const courses = [
-    {id: 1, name: 'Lewis'},
-    {id: 2, name: 'Mike'},
-    {id: 3, name: 'Joe'}
-
-];
-
+const { courses } = data;
+console.log(courses);
 app.get('/', (req,res) => {
     res.send('Hello World');
 
 });
-
 app.get('/courses', (req,res) => {
     res.send(courses)
 });
@@ -48,15 +44,20 @@ app.delete('/delete/course/:id', (req,res) => {
 app.put('/put/course/:id', (req,res) => {
     const course = courses.find(c => c.id === parseInt(req.params.id));
     if(!course) res.status(404).send('The course ID was not found');
+    const schema = {
+        name: Joi.string().min(3).max(10).required()
+    };
 
-    const { error } = validateCourse(req.body);
-    if(error) {
+    const {error} =  Joi.validate(req.body, schema);
+    // const result =  Joi.validate(req.body, schema);
+    if(error){
+        console.log(error.details[0].message);
         res.status(404).send(error.details[0].message);
         return;
     }
     course.name = req.body.name;
     res.send(course)
-})
+});
 app.get('/course/:id', (req,res) => {
    const course = courses.find(c => c.id === parseInt(req.params.id));
    if(!course){
@@ -75,5 +76,5 @@ const validateCourse = course => {
 
     return Joi.validate(course, schema);
 
-}
+};
 app.listen(9999);

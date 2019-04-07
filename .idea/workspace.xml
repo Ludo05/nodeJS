@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d3eef30-5fba-4798-9f00-760ecbe1ee82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ExpressServer/data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/express.js" beforeDir="false" afterPath="$PROJECT_DIR$/express.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/express.js" beforeDir="false" afterPath="$PROJECT_DIR$/ExpressServer/express.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpServer/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/httpServer/http.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/httpServer/http.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            <state relative-caret-position="161">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -36,17 +36,54 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/express.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExpressServer/express.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="81">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
-                <element signature="e#265#298#0" />
-                <element signature="e#335#360#0" />
-                <element signature="e#589#819#0" />
-                <element signature="e#858#1050#0" />
+                <element signature="e#294#327#0" />
+                <element signature="e#429#711#0" />
+                <element signature="e#760#990#0" />
+                <element signature="e#1412#1604#0" />
+                <element signature="e#1642#1769#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ExpressServer/data.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tutOne/sum.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StaticFiles/fileReader.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6302">
+              <caret line="280" column="21" selection-start-line="280" selection-start-column="21" selection-end-line="280" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -83,10 +120,12 @@
         <option value="$PROJECT_DIR$/tutOne/app.js" />
         <option value="$PROJECT_DIR$/events/event.js" />
         <option value="$PROJECT_DIR$/StaticFiles/fileReader.js" />
-        <option value="$PROJECT_DIR$/httpServer/http.js" />
         <option value="$PROJECT_DIR$/httpServer/index.html" />
         <option value="$PROJECT_DIR$/httpServer/staticfiles.js" />
         <option value="$PROJECT_DIR$/express.js" />
+        <option value="$PROJECT_DIR$/httpServer/http.js" />
+        <option value="$PROJECT_DIR$/ExpressServer/express.js" />
+        <option value="$PROJECT_DIR$/ExpressServer/data.js" />
       </list>
     </option>
   </component>
@@ -107,6 +146,26 @@
               <item name="nodejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodejs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="nodejs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodejs" type="462c0819:PsiDirectoryNode" />
+              <item name="ExpressServer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodejs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodejs" type="462c0819:PsiDirectoryNode" />
+              <item name="httpServer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodejs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodejs" type="462c0819:PsiDirectoryNode" />
+              <item name="StaticFiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodejs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodejs" type="462c0819:PsiDirectoryNode" />
+              <item name="tutOne" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -126,6 +185,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ExpressServer" />
       <recent name="$PROJECT_DIR$/tutOne" />
     </key>
   </component>
@@ -145,7 +205,7 @@
     <configuration name="event.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="event.js" working-dir="$PROJECT_DIR$/events">
       <method v="2" />
     </configuration>
-    <configuration name="express.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="express.js" working-dir="$PROJECT_DIR$">
+    <configuration name="express.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/ExpressServer/express.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="fileReader.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="fileReader.js" working-dir="$PROJECT_DIR$/StaticFiles">
@@ -160,8 +220,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.express.js" />
-        <item itemvalue="Node.js.staticfiles.js" />
         <item itemvalue="Node.js.http.js" />
+        <item itemvalue="Node.js.staticfiles.js" />
         <item itemvalue="Node.js.fileReader.js" />
         <item itemvalue="Node.js.event.js" />
       </list>
@@ -178,12 +238,13 @@
       <option name="presentableId" value="Default" />
       <updated>1554578956938</updated>
       <workItem from="1554578958653" duration="9943000" />
-      <workItem from="1554592746003" duration="1762000" />
+      <workItem from="1554592746003" duration="2000000" />
+      <workItem from="1554629765563" duration="3667000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11705000" />
+    <option name="totallyTimeSpent" value="15610000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -195,7 +256,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37114847" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3627451" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39915967" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -203,7 +264,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3277311" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.042016808" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -220,13 +281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutOne/sum.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/events/event.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -235,29 +289,15 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StaticFiles/MyTestFiles.txt" />
-    <entry file="file://$PROJECT_DIR$/StaticFiles/fileReader.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-          <folding>
-            <element signature="e#142#249#0" />
-          </folding>
+        <state relative-caret-position="6302">
+          <caret line="280" column="21" selection-start-line="280" selection-start-column="21" selection-end-line="280" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/httpServer/http.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/httpServer/staticfiles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/httpServer/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -269,19 +309,52 @@
     <entry file="file://$PROJECT_DIR$/httpServer/Static.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/express.js">
+    <entry file="file://$PROJECT_DIR$/StaticFiles/fileReader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="69">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/httpServer/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/httpServer/staticfiles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutOne/sum.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressServer/express.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
-            <element signature="e#265#298#0" />
-            <element signature="e#335#360#0" />
-            <element signature="e#589#819#0" />
-            <element signature="e#858#1050#0" />
+            <element signature="e#294#327#0" />
+            <element signature="e#429#711#0" />
+            <element signature="e#760#990#0" />
+            <element signature="e#1412#1604#0" />
+            <element signature="e#1642#1769#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressServer/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
         </state>
       </provider>
     </entry>
