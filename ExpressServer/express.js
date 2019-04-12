@@ -1,9 +1,10 @@
-const cors = require('cors')
+const cors = require('cors');
 const express = require('express');
 const Joi = require('joi');
 const data = require('./data');
 
 const app = express();
+//mongodb://<lewis1501>:<Pluto!23>@ds119663.mlab.com:19663/courses
 
 //Allows you to pass body data url encoded forms.
 app.use(express.json());
@@ -11,6 +12,7 @@ app.use(cors());
 
 const { courses } = data;
 console.log(courses);
+
 app.get('/', (req,res) => {
     res.send('Hello World');
 
